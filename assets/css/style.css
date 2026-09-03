@@ -1,3 +1,43 @@
-body{
+body {
+    margin: 0;
     background-color: red;
+}
+
+
+.page-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+
+.card {
+    background: beige;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.output {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
 }
